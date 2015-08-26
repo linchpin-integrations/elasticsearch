@@ -1,8 +1,8 @@
-# webhook
-Webhook Integration micro-service
+# Elasticsearch
+Elasticsearch Integration micro-service
 
-[![Build Status](https://travis-ci.org/linchpin-integrations/webhook.svg?branch=master)](https://travis-ci.org/linchpin-integrations/webhook)
-[![Coverage Status](https://coveralls.io/repos/linchpin-integrations/webhook/badge.svg?branch=master)](https://coveralls.io/r/linchpin-integrations/webhook?branch=master)
+[![Build Status](https://travis-ci.org/linchpin-integrations/elasticsearch.svg?branch=master)](https://travis-ci.org/linchpin-integrations/elasticsearch)
+[![Coverage Status](https://coveralls.io/repos/linchpin-integrations/elasticsearch/badge.svg?branch=master)](https://coveralls.io/r/linchpin-integrations/elasticsearch?branch=master)
 
 To test locally, install mocha
 ```
