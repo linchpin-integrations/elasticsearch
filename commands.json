@@ -18,8 +18,8 @@
           "type": "string",
           "title": "Name"
         },
-        "url": {
-          "title": "Url",
+        "host": {
+          "title": "Host",
           "type": "string"
         },
         "port":{
