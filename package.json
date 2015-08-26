@@ -1,0 +1,35 @@
+{
+  "name": "lpi-elasticsearch",
+  "version": "0.0.1",
+  "description": "LinchPin Elasticsearch integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linchpin-integrations/elasticsearch.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "linchpin",
+    "integrations"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linchpin-integrations/elasticsearch/issues"
+  },
+  "homepage": "https://github.com/linchpin-integrations/elasticsearch",
+  "dependencies": {
+    "elasticsearch": "^6.1.0",
+    "seneca": "^0.6.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "mocha-lcov-reporter": "0.0.2",
+    "istanbul": "^0.3.13",
+    "chai": "2.3.0",
+    "mocha": "*"
+  }
+}

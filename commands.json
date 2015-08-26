@@ -1,0 +1,37 @@
+{
+  "stats": {
+    "type": "object",
+    "description":"Get a cluster stats",
+    "properties": {
+      "elasticsearch": {
+        "$ref": "#/definitions/elasticsearch"
+      }
+    },
+    "required": ["elasticsearch"]
+  },
+  ".definitions": {
+    "elasticsearch": {
+      "type": "object",
+      ".linchpin": "Integrations/elasticsearch",
+      "properties": {
+        "name": {
+          "type": "string",
+          "title": "Name"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "port":{
+          "title": "Port",
+          "type": "integer",
+          "default":9200
+        }
+      },
+      "required": [
+        "name",
+        "url"
+      ]
+    }
+  }
+}
