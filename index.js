@@ -10,7 +10,7 @@ var service = {
     , "private": true
     , "form_options": null
     , "is_oauth": false
-    , "logo": "//linchpin-web-assets.s3.amazonaws.com/v1/integrations/elasticsearch/logos/www.png"
+    , "logo": "//linchpin-web-assets.s3.amazonaws.com/v1/integrations/elasticsearch/logos/elasticsearch-logo.png"
     , "server_integration": true
     , "frontend_integration": true
     , "supports_webhook": false
